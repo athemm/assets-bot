@@ -207,8 +207,6 @@ async def on_message(message):
     if message.content.startswith(prefix + "spike"):
         await message.channel.send(file=discord.File('tex//spike_tex.png'))  
 
-    if message.content.startswith(prefix + "qwertyuıopğüasdfghjklşizxcvbnmöç"):
-        await message.channel.send("fuck you retart")  
 
     if message.content.startswith(prefix + "sprout"):
         await message.channel.send(file=discord.File('tex//sprout_tex.png'))  
